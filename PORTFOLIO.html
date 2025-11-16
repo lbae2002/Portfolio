@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sara Watterson Portfolio</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <!-- Navbar -->
+  <nav>
+    <div class="nav-container">
+      <div class="logo">
+        SARA<span> Watterson</span>
+      </div>
+      <div class="links">
+        <div class="link"><a href="#">Home</a></div>
+        <div class="link"><a href="#about">About</a></div>
+        <div class="link"><a href="#skills">Skills</a></div>
+        <div class="link"><a href="#services">Services</a></div>
+        <div class="link"><a href="#contact">Contact</a></div>
+      </div>
+      <i class="fa-solid fa-bars hamburg" onclick="humburg()"></i>
+    </div>
+    <div class="dropdown">
+      <div class="links">
+        <a href="#">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+        <i class="fa-solid fa-xmark cancel" onclick="cancel()"></i>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section>
+    <div class="main-container">
+      <div class="image">
+        <img src="IMG1.jpg" alt="Laila Photo" />
+      </div>
+      <div class="content">
+        <h1 data-aos="fade-left">hey I'm <span>Sara</span></h1>
+        <div class="typewriter">
+          I'm a <span class="typewriter-text"></span><label></label>
+        </div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus iure esse aliquam est, cupiditate
+          quam fuga, facere vitae nulla accusantium velit in nemo ex quibusdam, consequuntur pariatur
+          nesciunt nisi ratione!</p>
+        <div class="social-links">
+          <a href="#"><i class="fa-brands fa-github"></i></a>
+          <a href="#"><i class="fa-brands fa-facebook"></i></a>
+          <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+          <a href="#"><i class="fa-brands fa-twitter"></i></a>
+        </div>
+        <div class="btn">
+          <button>Hire me</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="about" id="about">
+    <div class="content">
+      <div class="title"><span>About Me</span></div>
+      <div class="about-details">
+        <div class="left">
+          <img src="IMG1.jpg" alt="About Image" />
+        </div>
+        <div class="right">
+          <p class="about-text">I'm <span>Laila</span> and I'm a <span>Web Designer & Developer</span>. Lorem
+            ipsum dolor sit amet consectetur adipisicing elit. Modi placeat, itaque eligendi saepe doloribus
+            culpa, magni ab corrupti est fugiat suscipit quae accusantium vitae eaque nesciunt nam ad
+            inventore. Culpa?</p>
+          <div class="exp-area">
+            <p class="exp">Experience: <span>5 Years</span></p>
+            <p class="exp">Speciality: <span>Web Designer & Developer</span></p>
+            <p class="exp">Address: <span>Morocco</span></p>
+            <p class="exp">Email: <span>email@gmail.com</span></p>
+            <p class="exp">Phone: <span>+212 6.60.61.06.06</span></p>
+            <p class="exp">Freelance: <span>Available</span></p>
+          </div>
+          <div class="button">
+            <button>View All Projects</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section class="skills" id="skills">
+    <div class="content">
+      <div class="title"><span>My Skills</span></div>
+      <div class="skills-details">
+        <div class="text">
+          <div class="topic">Skills Reflect Our Knowledge</div>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est sed ex praesentium tempore. Possimus iste
+            odit quidem voluptatum maiores esse quibusdam incidunt repudiandae? Aliquam commodi et dicta praesentium
+            necessitatibus perferendis!</p>
+          <div class="experience">
+            <div class="num">10</div>
+            <div class="exp">Years Of Experience</div>
+          </div>
+        </div>
+        <div class="boxes">
+          <div class="box">
+            <div class="topic">HTML</div>
+            <div class="per">95%</div>
+          </div>
+          <div class="box">
+            <div class="topic">CSS</div>
+            <div class="per">90%</div>
+          </div>
+          <div class="box">
+            <div class="topic">JavaScript</div>
+            <div class="per">60%</div>
+          </div>
+          <div class="box">
+            <div class="topic">PHP</div>
+            <div class="per">20%</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section class="services" id="services">
+    <div class="content">
+      <div class="title"><span>My Services</span></div>
+      <div class="boxes">
+        <div class="box">
+          <div class="icon"><i class="fas fa-desktop"></i></div>
+          <div class="topic">Web Development</div>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+        </div>
+        <div class="box">
+          <div class="icon"><i class="fas fa-paint-brush"></i></div>
+          <div class="topic">Graphic Design</div>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+        <div class="box">
+          <div class="icon"><i class="fas fa-chart-line"></i></div>
+          <div class="topic">Digital Marketing</div>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+        <div class="box">
+          <div class="icon"><i class="fab fa-android"></i></div>
+          <div class="topic">Icon Design</div>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+        <div class="box">
+          <div class="icon"><i class="fas fa-camera-retro"></i></div>
+          <div class="topic">Photography</div>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+        <div class="box">
+          <div class="icon"><i class="fas fa-tablet-alt"></i></div>
+          <div class="topic">Apps Development</div>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="contact" id="contact">
+    <div class="content">
+      <div class="title"><span>Contact Me</span></div>
+      <div class="text">
+        <div class="topic" style="margin-left: 10px;">Have Any Problem?</div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+      </div>
+      <div class="contact-form-container">
+        <form class="contact-form">
+          <label for="name">Name</label>
+          <input type="text" id="name" placeholder="Your Name" required />
+
+          <label for="email">Email</label>
+          <input type="email" id="email" placeholder="Your Email" required />
+
+          <label for="phone">Phone Number</label>
+          <input type="tel" id="phone" placeholder="Phone" required />
+
+          <label for="message">Message</label>
+          <textarea id="message" rows="5" placeholder="Your Message" required></textarea>
+
+          <button type="submit" class="contact-btn">Send Message</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="text">
+      <span>Created By <a href="#" style="color: #077b32;font-weight:bold;">lbae2002</a> | &#169; 2025 All Rights Reserved</span>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
